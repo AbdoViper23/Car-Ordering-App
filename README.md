@@ -21,17 +21,7 @@ The Online Car Ordering Program is a C# based application that provides a seamle
 
 2. **Open in Visual Studio**
    Open the solution file (`.sln`) in Visual Studio.
-
-3. **Configure Firebase**
-   - Create a new project on the [Firebase Console](https://console.firebase.google.com/).
-   - Add a new web app to the Firebase project.
-   - Obtain the Firebase configuration and add it to the project.
-
-4. **Build and Run**
-   - Restore NuGet packages.
-   - Build the project.
-   - Run the application.
-
+   
 ## Usage
 
 1. **Passenger Interface**
@@ -68,7 +58,6 @@ OnlineCarOrdering/
        ├── driver_dt.cs             # Driver data
        ├── user_dt.cs               # Passenger data
        └── requests.cs              # Passenger Request data
-
 
 ```
 
