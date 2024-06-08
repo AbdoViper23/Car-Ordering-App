@@ -39,25 +39,26 @@ The Online Car Ordering Program is a C# based application that provides a seamle
 ## Project Structure
 
 ```
-OnlineCarOrdering/
+OnlineCarOrdering
 │
-├── OnlineCarOrdering.sln
-├── README.md                       # Project README file
-├───┬── OnlineCarOrderingApp        # Main application directory
-│   ├── Form1.cs                    # The program's home page for login
-│   ├── signup_frm.cs               # The page for creating a new account
-│   ├── welcome_frm.cs              # User welcome page
-│   │
-│   ├──┬── passenger_form.cs        # passenger form to Enter trip data
-│   │  └── request_accept_form.cs   # Trip acceptance page, It contains driver,car data and chat
-│   │
-│   └──┬── driver_frm.cs            # Driver form to view and choose the trip
-│      └── driver_acc_form.cs       # Trip acceptance page, It contains Passenger,trip data and chat
+├─ OnlineCarOrdering.sln
+├─ README.md                             # Project README file
+├─┬──/OnlineCarOrderingApp/              # Main application directory
+│ ├─ signup_frm.cs                       # The page for creating a new account
+│ └─ Form1.cs                            # The program's home page for login
+│     └── welcome_form.cs                # User welcome page
+│          │
+│          ├─┬─ passenger_form.cs        # passenger form to Enter trip data
+│          │ └─ request_accept_form.cs   # Trip acceptance page, It contains driver,car data and chat
+│          │
+│          └─┬─ driver_form.cs           # Driver form to view and choose the trip
+│            └─ driver_acc_form.cs       # Trip acceptance page, It contains Passenger,trip data and chat
 │
 └──────┬── /classes/                # contains data that will be transferred to Firebase
        ├── driver_dt.cs             # Driver data
        ├── user_dt.cs               # Passenger data
        └── requests.cs              # Passenger Request data
+
 
 ```
 
@@ -70,3 +71,19 @@ OnlineCarOrdering/
 4. Commit your changes (`git commit -am 'Add new feature'`).
 5. Push to the branch (`git push origin feature-branch`).
 6. Open a pull request.
+
+## Snapshots From The Program 📸
+### Login:
+![image](https://github.com/AbdoViper23/Car-ordering-App/assets/113295999/9b8324e5-1632-4325-ae82-2931e6d2554d)
+
+### Welcome:
+![image](https://github.com/AbdoViper23/Car-ordering-App/assets/113295999/3adf757b-a461-4e99-8c11-3038e715aa52)
+
+### Send a Request (Passenger)
+![image](https://github.com/AbdoViper23/Car-ordering-App/assets/113295999/0da071c9-a0fc-4135-9d4d-364b8231f9cf)
+
+### View Available Trip (Driver)
+![image](https://github.com/AbdoViper23/Car-ordering-App/assets/113295999/502fb837-73ea-4216-be99-f35b3050e64e)
+
+### Starting The Trip And The Chatting Between The Driver And The Passenger
+![image](https://github.com/AbdoViper23/Car-ordering-App/assets/113295999/cf8d3ec8-aeaf-4fb4-b9d5-c0ca862c0a2d)
